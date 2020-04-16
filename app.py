@@ -9,7 +9,7 @@ def hello_world():
     return 'Hello World!\n'
 
 
-@app.route('/hello/<username>') # dynamic route
+@app.route('/hello/<username>')  # dynamic route
 def hello_user(username):
     return 'Why Hello %s!\n' % username
 
